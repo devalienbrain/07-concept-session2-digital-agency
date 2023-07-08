@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+
+/* HEADER & NAVBAR */
+.header {
+  background-color: gray;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos,
+.ul-list {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+/* BANNER */
+.banner {
+  color: white;
+  background-image: url('image/background.jpg'), linear-gradient(rgb(106, 103, 103), rgb(69, 65, 65));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+/* SERVICES SECTION*/
+.service-section {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  /* using relative position to overlap the appointment box */
+}
+
+.service-info {
+  display: flex;
+  justify-content: space-around;
+  height: 77%;
+  align-items: center;
+}
+
+.service-contents {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  /* align-items: center; */
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.author-details img {
+  border-radius: 50%;
+}
+
+.author-and-btn {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.author-and-btn hr {
+  height: 100%;
+}
+
+.service-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.box {
+  background-color: white;
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  row-gap: 5px;
+  column-gap: 7px;
+  padding: 20px;
+  margin: 5px 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.service-boxes img {
+  width: 70px;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
+.make-appointment-box {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  background-color: red;
+  height: 140px;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: aliceblue;
+  border: 0;
+  position: absolute;
+  /* using absolute position to this box to make overlap within the relative service box */
+  bottom: -70px;
+}
+
+.phone-contact {
+  display: flex;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
