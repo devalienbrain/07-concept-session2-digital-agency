@@ -143,3 +143,31 @@ nav li {
 }
 
 /* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
+
+/* BLOOG BOXES */
+.blog-sec {
+  margin-top: 100px;
+  height: 100vh;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.blogbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blog-box {
+  width: 250px;
+  height: 310px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.blog-box img {
+  width: 100%;
+  border-radius: 5px;
+}
