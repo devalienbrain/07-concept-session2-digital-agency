@@ -87,11 +87,22 @@ nav li {
 .author-and-btn {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 5px;
 }
 
-.author-and-btn hr {
-  height: 100%;
+/* .author-and-btn hr {
+  width: 100%;
+
+}
+
+.hr-property {
+  display: flex;
+  flex-direction: column;
+  background: red;
+} */
+.hr-border {
+  padding-right: 30px;
+  border-right: 1px solid red;
 }
 
 .service-boxes {
